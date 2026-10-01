@@ -4,4 +4,4 @@ const route = express.Router();
 
 route.get('/', userController.getUsers);
 
-module.exports = {route};
+module.exports = route;
